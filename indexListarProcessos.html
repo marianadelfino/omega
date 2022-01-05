@@ -1,0 +1,63 @@
+<html lang="pt">
+<head>
+<title>NAC Integrado - Listar Processos</title>
+<link rel="stylesheet" type="text/css" href="estiloPrincipal.css"/>
+</head>
+
+<body bgcolor="black">
+
+
+<header id="estiloSuperior">
+<div id="textoSuperior">
+<img src="imagemPrincipal.gif"  style="border: 0px" height="20%" align="bottom"/>
+<SPAN class="enfaseTextoSuperior"><a href="indexListarProcessos.html">Listar Processos</a></SPAN>
+</div>
+</header>
+
+
+<div id="estiloSuperiorUm">
+<SPAN class="enfaseSuperiorUm">Buscar Processo</SPAN>
+<form name="ListarProcessos" method="Post" action="processosListadosBusca.html" target="IFRAME">
+
+<table border="0" width="50%">
+<tr>
+<td><label for="idProcesso">Número do processo:</label></td>
+<td><input name="processo" type="text"/></td>
+</tr>
+
+
+<tr>
+<td><label for="idCliente">Nome do cliente:</label></td>
+<td><input name="cliente" type="text"/></td>
+</tr> 
+
+<tr>
+<td>Data do processo:</td>
+<td> <input type="date" name="inicial"> até  <input type="date" name="final"></td> 
+</tr>
+
+
+<tr>
+<td>&nbsp;</td>
+<td><input type="Reset" value="Limpar" /> <input type="Submit" value="Buscar" /></td>
+</tr>
+
+</table>
+</form>  
+</div>
+
+
+<div id="estiloSuperiorDois">
+<iframe src="processosListados.html" name="IFRAME" id="estiloFrame" scrolling="no" border="0"></iframe>
+</div>
+
+
+<footer id="estiloInferior">
+<div id="textoInferior">
+Advocacia LCA ® Todos os Direitos Reservados 
+</div>
+</footer>
+
+
+</body>
+</html>

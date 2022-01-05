@@ -1,0 +1,79 @@
+#estiloSuperior {background-color: #311B05;
+background-image: url("pattern3.jpg");
+width: 100%; 
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+box-shadow:5px 5px 5px 0px black;}
+
+#textoSuperior {padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Century Gothic; font-size: 40px; color: #FFFFFF; text-align: justify;}
+.enfaseTextoSuperior {padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Georgia; font-size: 40px; color: #FFFFFF; font-weight: bold; 
+text-shadow: 5px 5px #000000;}
+
+
+#estiloSuperiorUm {background-color: white;
+float: left;
+width: 100%; 
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;}
+.enfaseSuperiorUm {padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Georgia; font-size: 20px; color: #000000; font-weight: bold; text-align: justify;}
+
+table{
+border: 0px solid black;
+text-align: justify; 
+padding-left: 10px; 
+font-family: Georgia;}
+
+th {border: 0px solid black;
+text-align: justify; 
+font-family: Georgia;}
+
+td{
+border: 0px solid black;
+text-align: justify; 
+font-family: Georgia;}
+
+#estiloSuperiorDois {background-color: white; 
+position: relative;
+width: 100%; 
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+overflow: hidden;
+border: 0px;
+clear: both;} 
+
+#estiloFrame {background-color: white; 
+position: relative;
+width: 100%; 
+height: 60%; 
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+overflow:hidden;
+border: 0px;
+clear: both;} 
+
+
+#estiloInferior {background-color: #0D0D0D; 
+background-image: url("pattern3.jpg");
+width: 100%; 
+height: 10%; 
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+clear: both; }
+#textoInferior {padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Georgia; font-size: 20px; color: #FFFFFF; text-align: center;
+text-shadow: 2px 2px #000000; font-weight: bold;}
+
+
+a:link    {font-family: Georgia; font-size: 40px; color: #FFFFFF; font-weight: bold; text-shadow: 5px 5px #000000; text-decoration: none;}
+a:visited {font-family: Georgia; font-size: 40px; color: #FFFFFF; font-weight: bold; text-shadow: 5px 5px #000000; text-decoration: none;}
+a:hover   {font-family: Georgia; font-size: 40px; color: #FFFFFF; font-weight: bold; text-shadow: 5px 5px #000000; text-decoration: none;}
+a:active  {font-family: Georgia; font-size: 40px; color: #FFFFFF; font-weight: bold; text-shadow: 5px 5px #000000; text-decoration: none;}
